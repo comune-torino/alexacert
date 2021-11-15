@@ -1,0 +1,4 @@
+name*,version*,license*,copyrights*,end-of-support,dependencies,language,repository,email,URL
+ask-sdk-core,"^2.6.0","Apache License, Version 2.0",,,,Node.js,https://www.npmjs.com/package/ask-sdk-core,,
+ask-sdk-model,"^1.18.0","Apache License, Version 2.0",,,,Node.js,https://www.npmjs.com/package/ask-sdk-model,,
+aws-sdk,"^2.326.0","Apache License, Version 2.0",,,,Node.js,https://www.npmjs.com/package/aws-sdk,,

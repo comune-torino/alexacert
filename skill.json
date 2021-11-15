@@ -1,0 +1,59 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "it-IT": {
+          "summary": "Ricevi sulla casella di posta del tuo account Alexa il certificato desiderato, senza muoverti.",
+          "examplePhrases": [
+            "Alexa, apri certificati NOME ENTE",
+            "Alexa, apri certificati NOME ENTE e mandami il certificato"
+          ],
+          "keywords": [
+            "certificati",
+            "città",
+            "torino"
+          ],
+          "name": "Certificati NOME ENTE",
+          "description": "Questa skill sperimentale permette di ricevere sulla casella di posta del tuo account Amazon il tuo certificato anagrafico o di stato civile.",
+        }
+      },
+      "automaticDistribution": {
+        "sourceLocaleForLanguages": [],
+        "isActive": false
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "inserire INFO UTILI PER IL testing per la certificazione",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": [
+        "IT"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "URI_arn_aws_lambda"
+        },
+        "interfaces": []
+      }
+    },
+    "permissions": [
+      {
+        "name": "alexa::profile:email:read"
+      }
+    ],
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "it-IT": {
+          "termsOfUseUrl": "",
+          "privacyPolicyUrl": ""
+        }
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": true
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "INSERIRE FRASE DI INVOCAZIONE",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "suggerisci",
+            "ho bisogno di te",
+            "dammi dei suggerimenti",
+            "cosa posso fare",
+            "come uso la skill",
+            "ho bisogno di aiuto",
+            "dammi una mano",
+            "aiuto"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "salve",
+            "buongiorno",
+            "ciao"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "invioCertificato",
+          "slots": [],
+          "samples": [
+            "mandami il certificato",
+            "inviami il certificato",
+            "dammi il certificato"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "8"
+}
