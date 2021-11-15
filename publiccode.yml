@@ -1,0 +1,75 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+categories:
+  - digital-citizenship
+dependsOn:
+  proprietary:
+    - name: Alexa developer console
+      optional: false
+      version: ''
+      versionMax: ''
+      versionMin: ''
+description:
+  it:
+    features:
+      - Richiesta certificato di nascita
+    genericName: Alexacert
+    longDescription: |
+      Questo prodotto rappresenta il proof of concept (POC) per un'applicazione
+      vocale, su Alexa, che consente, in modo semplice, di richiedere un
+      certificato e di riceverlo nella propria casella di posta elettronica. In
+      questo prototipo, il certificato utilizzato è quello di nascita, che ha il
+      vantaggio di essere esente bollo, utilizzando una chiamata all'Anagrafe di
+      Torino. L'utente che utilizza l'assistente vocale viene identificato, una
+      tantum, attraverso il collegamento tra l'utente Amazon e l'identità
+      digitale (es: SPID). Questa operazione di identificazione è svolta una
+      sola volta ed è valida sino a revoca esplicita. Quando l'utente attiva
+      l'applicazione con "Alexa, parla con certificati Torino", l'utente viene
+      riconosciuto, viene ricordata la casella di email che verrà utilizzata per
+      il recapito (quella definita nel profilo di Amazon), e gli viene richiesto
+      di confermare la richiesta di certificato. Al suo assenso il sistema
+      provvede a richiedere all'Anagrafe/ANPR il certificato (in pdf) e ad
+      inviarlo alla casella registrata. 
+    shortDescription: Applicazione vocale su Alexa per la richiesta di un certificato di nascita
+developmentStatus: beta
+intendedAudience:
+  scope:
+    - local-authorities
+it:
+  conforme:
+    gdpr: false
+    lineeGuidaDesign: false
+    misureMinimeSicurezza: false
+    modelloInteroperabilita: false
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: false
+    pagopa: false
+    spid: false
+landingURL: 'https://github.com/comune-torino/alexacert.git'
+legal:
+  license: EUPL-1.2
+  mainCopyrightOwner: Comune di Torino
+  repoOwner: Comune di Torino
+localisation:
+  availableLanguages:
+    - it
+  localisationReady: false
+maintenance:
+  contacts:
+    - email: saverino.reale@csi.it
+      name: Saverino Reale
+  type: internal
+name: Alexacert
+platforms:
+  - web
+releaseDate: '2021-11-15'
+softwareType: standalone/other
+softwareVersion: '0.5'
+url: 'https://github.com/comune-torino/alexacert'
+usedBy:
+  - Comune di Torino
