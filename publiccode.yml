@@ -50,6 +50,8 @@ it:
     cie: false
     pagopa: false
     spid: false
+  riuso:
+    codiceIPA: c_l219
 landingURL: 'https://github.com/comune-torino/alexacert.git'
 legal:
   license: EUPL-1.2
